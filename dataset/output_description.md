@@ -1,4 +1,4 @@
-## output_refined_labels.csv
+## File: output_refined_labels.csv
 - contains the output misinformation dataset after label refinement.
 - **cascade_tid**: tweetid of cascade source tweet
 - **weak_label**: weak news-source credibility labels (binarized)
