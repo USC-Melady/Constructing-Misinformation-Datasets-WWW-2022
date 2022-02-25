@@ -9,5 +9,6 @@
 RETAIN (weak label), FLIP (flip weak label) as predicted by label refinement procedure using CSI detection model uncertainity and social context.
 - **refined_label**: Final refined label for misinformation dataset. (-1 if unknown/query, 0 for True claim, 1 for Misinformation claim).
 
-## Misinformation claims (mostly_false, false/conspiracy, mixture, unproven): Label = 1 (binarized)
-## True claims (true, mostly_true, debunk): Label = 0 (binarized)
+## Distortion of facts (label definition)
+- **Misinformation claims** (mostly_false, false/conspiracy, mixture, unproven): Label = 1 (binarized)
+- **True claims** (true, mostly_true, debunk): Label = 0 (binarized)
