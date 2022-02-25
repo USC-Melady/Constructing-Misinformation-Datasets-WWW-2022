@@ -12,3 +12,6 @@ RETAIN (weak label), FLIP (flip weak label) as predicted by label refinement pro
 ## Distortion of facts (label definition)
 - **Misinformation claims** (mostly_false, false/conspiracy, mixture, unproven): Label = 1 (binarized)
 - **True claims** (true, mostly_true, debunk): Label = 0 (binarized)
+- Noise rate in original data (on te/va) is 15-20%. 
+- Noise rate in refined data (on te/va) is 4-5%.
+- Final refined misinformation dataset distribution: 8123 (label 0) cascades, 1567 (label 1) cascades, 4954 (uncertain label) cascades. 
